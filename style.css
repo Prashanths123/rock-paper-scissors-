@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+body{
+    background-image: url("assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+}
+body div{
+    display: flex;
+}
+
+h1{
+    color: rgb(90, 37, 192);
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10vh
+}
+img#play-button{
+    margin-top: 50vh;
+    margin-left: 20vh;
+    cursor: pointer;
+}
+
+img#play-button:hover{
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+
+div#game-image{
+    margin-left: 13vw;
+    margin-top: 5vh;
+}
+
+div span{
+    font-size: 2.5vh;
+    font-weight: 900;
+    color: white;
+    margin-top: 50vh;
+    margin-left: 16px;
+    position: relative;
+}
+div#score img{
+    position: relative;
+    height: 70vh;
+    left: 33px;
+    top: 20px;
+}
+
+div#play-area{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div#score {
+    display: block;
+    margin-top: 10vh;
+}
+
+div#score span{
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+div#user-area div, div#computer-area div{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+div#play-area div#user-area, div#computer-area{
+    padding: 20px;
+    width: 600px;
+    border: 2px solid #ffc434;
+    color: white;
+    display: block;
+    height: 500px;
+    margin-top: 25vh;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}   
+
+#user-answer{
+    height: 43vh;
+}
+
+span#play-again{
+    padding: 15px;
+    background-color: #ffc434;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    z-index: 5;
+    margin-left: 45vw;
+    margin-top: 5vh;
+    font-weight: 900;
+    position: absolute;
+    bottom: 80px;
+    font-size: 3vh;
+}
+div#end-message{
+    background-color: rgba(226, 203, 203, 0.592);
+    top: 0px;
+    bottom: 50px;
+    left: 50px;
+    margin-top: 10vh;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    position: fixed;
+    right: 50px;   
+}
+#end-text{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-size: 20vh;
+    border-radius: 30px;
+    margin-left: 25vw;
+    position: absolute;
+    bottom: 40vh;
+    font-weight: 900;
+    background-color:#000000;
+}
